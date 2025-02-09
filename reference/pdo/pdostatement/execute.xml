@@ -65,6 +65,11 @@
   </para>
  </refsect1>
 
+ <refsect1 role="errors">
+  &reftitle.errors;
+  &pdo.errors;
+ </refsect1>
+
  <refsect1 role="examples">
   &reftitle.examples;
   <example><title>Execute a prepared statement with a bound variable and value</title>
@@ -145,7 +150,7 @@ $sth->execute();
 /* Execute a prepared statement using an array of values for an IN clause */
 $params = array(1, 21, 63, 171);
 /* Create a string for the parameter placeholders filled to the number of params */
-$place_holders = implode(',', array_fill(0, count($params), '?'));
+$place_holders = '?' . str_repeat(', ?', count($params) - 1);
 
 /*
     This prepares the statement with enough unnamed placeholders for every value

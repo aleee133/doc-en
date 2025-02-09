@@ -50,6 +50,11 @@
   </para>
  </refsect1>
 
+ <refsect1 role="errors">
+  &reftitle.errors;
+  &mysqli.conditionalexception;
+ </refsect1>
+
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
@@ -98,12 +103,6 @@ Current character set: utf8mb4
 
  <refsect1 role="notes">
   &reftitle.notes;
-  <note>
-   <para>
-    To use this function on a Windows platform you need MySQL client library
-    version 4.1.11 or above (for MySQL 5.0 you need 5.0.6 or above).
-   </para>
-  </note>
   <note>
    <para>
     This is the preferred way to change the charset. Using

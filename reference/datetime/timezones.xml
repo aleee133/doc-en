@@ -2,13 +2,17 @@
 <!-- $Revision$ -->
 <!-- AUTO GENERATED, DO NOT TRANSLATE OR MODIFY BY HAND -->
 
+<!-- The script to generate this file is scripts/gen-phpdoc-tz-list.php -->
+<!-- in the doc-base repo. However, it should only need to be run when  -->
+<!-- the tzdb file is updated by the maintainer of DateTime/timelib.    -->
+
 <appendix xml:id="timezones" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &date.timezone.intro.title;
  &date.timezone.intro;
 
  <note>
   <simpara>
-   &date.timezone.dbversion; 2022.7.
+   &date.timezone.dbversion; 2025.1.
   </simpara>
  </note>
 
@@ -321,7 +325,7 @@
       <entry>America/Whitehorse</entry>
       <entry>America/Winnipeg</entry>
       <entry>America/Yakutat</entry>
-      <entry>America/Yellowknife</entry>
+      <entry></entry>
      </row>
     </tbody>
    </tgroup>
@@ -403,104 +407,104 @@
      </row>
      <row>
       <entry>Asia/Chita</entry>
-      <entry>Asia/Choibalsan</entry>
       <entry>Asia/Colombo</entry>
       <entry>Asia/Damascus</entry>
+      <entry>Asia/Dhaka</entry>
      </row>
      <row>
-      <entry>Asia/Dhaka</entry>
       <entry>Asia/Dili</entry>
       <entry>Asia/Dubai</entry>
       <entry>Asia/Dushanbe</entry>
+      <entry>Asia/Famagusta</entry>
      </row>
      <row>
-      <entry>Asia/Famagusta</entry>
       <entry>Asia/Gaza</entry>
       <entry>Asia/Hebron</entry>
       <entry>Asia/Ho_Chi_Minh</entry>
+      <entry>Asia/Hong_Kong</entry>
      </row>
      <row>
-      <entry>Asia/Hong_Kong</entry>
       <entry>Asia/Hovd</entry>
       <entry>Asia/Irkutsk</entry>
       <entry>Asia/Jakarta</entry>
+      <entry>Asia/Jayapura</entry>
      </row>
      <row>
-      <entry>Asia/Jayapura</entry>
       <entry>Asia/Jerusalem</entry>
       <entry>Asia/Kabul</entry>
       <entry>Asia/Kamchatka</entry>
+      <entry>Asia/Karachi</entry>
      </row>
      <row>
-      <entry>Asia/Karachi</entry>
       <entry>Asia/Kathmandu</entry>
       <entry>Asia/Khandyga</entry>
       <entry>Asia/Kolkata</entry>
+      <entry>Asia/Krasnoyarsk</entry>
      </row>
      <row>
-      <entry>Asia/Krasnoyarsk</entry>
       <entry>Asia/Kuala_Lumpur</entry>
       <entry>Asia/Kuching</entry>
       <entry>Asia/Kuwait</entry>
+      <entry>Asia/Macau</entry>
      </row>
      <row>
-      <entry>Asia/Macau</entry>
       <entry>Asia/Magadan</entry>
       <entry>Asia/Makassar</entry>
       <entry>Asia/Manila</entry>
+      <entry>Asia/Muscat</entry>
      </row>
      <row>
-      <entry>Asia/Muscat</entry>
       <entry>Asia/Nicosia</entry>
       <entry>Asia/Novokuznetsk</entry>
       <entry>Asia/Novosibirsk</entry>
+      <entry>Asia/Omsk</entry>
      </row>
      <row>
-      <entry>Asia/Omsk</entry>
       <entry>Asia/Oral</entry>
       <entry>Asia/Phnom_Penh</entry>
       <entry>Asia/Pontianak</entry>
+      <entry>Asia/Pyongyang</entry>
      </row>
      <row>
-      <entry>Asia/Pyongyang</entry>
       <entry>Asia/Qatar</entry>
       <entry>Asia/Qostanay</entry>
       <entry>Asia/Qyzylorda</entry>
+      <entry>Asia/Riyadh</entry>
      </row>
      <row>
-      <entry>Asia/Riyadh</entry>
       <entry>Asia/Sakhalin</entry>
       <entry>Asia/Samarkand</entry>
       <entry>Asia/Seoul</entry>
+      <entry>Asia/Shanghai</entry>
      </row>
      <row>
-      <entry>Asia/Shanghai</entry>
       <entry>Asia/Singapore</entry>
       <entry>Asia/Srednekolymsk</entry>
       <entry>Asia/Taipei</entry>
+      <entry>Asia/Tashkent</entry>
      </row>
      <row>
-      <entry>Asia/Tashkent</entry>
       <entry>Asia/Tbilisi</entry>
       <entry>Asia/Tehran</entry>
       <entry>Asia/Thimphu</entry>
+      <entry>Asia/Tokyo</entry>
      </row>
      <row>
-      <entry>Asia/Tokyo</entry>
       <entry>Asia/Tomsk</entry>
       <entry>Asia/Ulaanbaatar</entry>
       <entry>Asia/Urumqi</entry>
+      <entry>Asia/Ust-Nera</entry>
      </row>
      <row>
-      <entry>Asia/Ust-Nera</entry>
       <entry>Asia/Vientiane</entry>
       <entry>Asia/Vladivostok</entry>
       <entry>Asia/Yakutsk</entry>
+      <entry>Asia/Yangon</entry>
      </row>
      <row>
-      <entry>Asia/Yangon</entry>
       <entry>Asia/Yekaterinburg</entry>
       <entry>Asia/Yerevan</entry>
+      <entry></entry>
       <entry></entry>
      </row>
     </tbody>
@@ -818,236 +822,236 @@
      <row>
       <entry>America/Thunder_Bay</entry>
       <entry>America/Virgin</entry>
+      <entry>America/Yellowknife</entry>
       <entry>Antarctica/South_Pole</entry>
-      <entry>Asia/Ashkhabad</entry>
      </row>
      <row>
+      <entry>Asia/Ashkhabad</entry>
       <entry>Asia/Calcutta</entry>
+      <entry>Asia/Choibalsan</entry>
       <entry>Asia/Chongqing</entry>
+     </row>
+     <row>
       <entry>Asia/Chungking</entry>
       <entry>Asia/Dacca</entry>
-     </row>
-     <row>
       <entry>Asia/Harbin</entry>
       <entry>Asia/Istanbul</entry>
+     </row>
+     <row>
       <entry>Asia/Kashgar</entry>
       <entry>Asia/Katmandu</entry>
-     </row>
-     <row>
       <entry>Asia/Macao</entry>
       <entry>Asia/Rangoon</entry>
+     </row>
+     <row>
       <entry>Asia/Saigon</entry>
       <entry>Asia/Tel_Aviv</entry>
-     </row>
-     <row>
       <entry>Asia/Thimbu</entry>
       <entry>Asia/Ujung_Pandang</entry>
+     </row>
+     <row>
       <entry>Asia/Ulan_Bator</entry>
       <entry>Atlantic/Faeroe</entry>
-     </row>
-     <row>
       <entry>Atlantic/Jan_Mayen</entry>
       <entry>Australia/ACT</entry>
+     </row>
+     <row>
       <entry>Australia/Canberra</entry>
       <entry>Australia/Currie</entry>
-     </row>
-     <row>
       <entry>Australia/LHI</entry>
       <entry>Australia/North</entry>
+     </row>
+     <row>
       <entry>Australia/NSW</entry>
       <entry>Australia/Queensland</entry>
-     </row>
-     <row>
       <entry>Australia/South</entry>
       <entry>Australia/Tasmania</entry>
+     </row>
+     <row>
       <entry>Australia/Victoria</entry>
       <entry>Australia/West</entry>
-     </row>
-     <row>
       <entry>Australia/Yancowinna</entry>
       <entry>Brazil/Acre</entry>
+     </row>
+     <row>
       <entry>Brazil/DeNoronha</entry>
       <entry>Brazil/East</entry>
-     </row>
-     <row>
       <entry>Brazil/West</entry>
       <entry>Canada/Atlantic</entry>
+     </row>
+     <row>
       <entry>Canada/Central</entry>
       <entry>Canada/Eastern</entry>
-     </row>
-     <row>
       <entry>Canada/Mountain</entry>
       <entry>Canada/Newfoundland</entry>
+     </row>
+     <row>
       <entry>Canada/Pacific</entry>
       <entry>Canada/Saskatchewan</entry>
-     </row>
-     <row>
       <entry>Canada/Yukon</entry>
       <entry>CET</entry>
+     </row>
+     <row>
       <entry>Chile/Continental</entry>
       <entry>Chile/EasterIsland</entry>
-     </row>
-     <row>
       <entry>CST6CDT</entry>
       <entry>Cuba</entry>
+     </row>
+     <row>
       <entry>EET</entry>
       <entry>Egypt</entry>
-     </row>
-     <row>
       <entry>Eire</entry>
       <entry>EST</entry>
+     </row>
+     <row>
       <entry>EST5EDT</entry>
       <entry>Etc/GMT</entry>
-     </row>
-     <row>
       <entry>Etc/GMT+0</entry>
       <entry>Etc/GMT+1</entry>
+     </row>
+     <row>
       <entry>Etc/GMT+10</entry>
       <entry>Etc/GMT+11</entry>
-     </row>
-     <row>
       <entry>Etc/GMT+12</entry>
       <entry>Etc/GMT+2</entry>
+     </row>
+     <row>
       <entry>Etc/GMT+3</entry>
       <entry>Etc/GMT+4</entry>
-     </row>
-     <row>
       <entry>Etc/GMT+5</entry>
       <entry>Etc/GMT+6</entry>
+     </row>
+     <row>
       <entry>Etc/GMT+7</entry>
       <entry>Etc/GMT+8</entry>
-     </row>
-     <row>
       <entry>Etc/GMT+9</entry>
       <entry>Etc/GMT-0</entry>
+     </row>
+     <row>
       <entry>Etc/GMT-1</entry>
       <entry>Etc/GMT-10</entry>
-     </row>
-     <row>
       <entry>Etc/GMT-11</entry>
       <entry>Etc/GMT-12</entry>
+     </row>
+     <row>
       <entry>Etc/GMT-13</entry>
       <entry>Etc/GMT-14</entry>
-     </row>
-     <row>
       <entry>Etc/GMT-2</entry>
       <entry>Etc/GMT-3</entry>
+     </row>
+     <row>
       <entry>Etc/GMT-4</entry>
       <entry>Etc/GMT-5</entry>
-     </row>
-     <row>
       <entry>Etc/GMT-6</entry>
       <entry>Etc/GMT-7</entry>
+     </row>
+     <row>
       <entry>Etc/GMT-8</entry>
       <entry>Etc/GMT-9</entry>
-     </row>
-     <row>
       <entry>Etc/GMT0</entry>
       <entry>Etc/Greenwich</entry>
+     </row>
+     <row>
       <entry>Etc/UCT</entry>
       <entry>Etc/Universal</entry>
-     </row>
-     <row>
       <entry>Etc/UTC</entry>
       <entry>Etc/Zulu</entry>
+     </row>
+     <row>
       <entry>Europe/Belfast</entry>
       <entry>Europe/Kiev</entry>
-     </row>
-     <row>
       <entry>Europe/Nicosia</entry>
       <entry>Europe/Tiraspol</entry>
+     </row>
+     <row>
       <entry>Europe/Uzhgorod</entry>
       <entry>Europe/Zaporozhye</entry>
-     </row>
-     <row>
       <entry>Factory</entry>
       <entry>GB</entry>
+     </row>
+     <row>
       <entry>GB-Eire</entry>
       <entry>GMT</entry>
-     </row>
-     <row>
       <entry>GMT+0</entry>
       <entry>GMT-0</entry>
+     </row>
+     <row>
       <entry>GMT0</entry>
       <entry>Greenwich</entry>
-     </row>
-     <row>
       <entry>Hongkong</entry>
       <entry>HST</entry>
+     </row>
+     <row>
       <entry>Iceland</entry>
       <entry>Iran</entry>
-     </row>
-     <row>
       <entry>Israel</entry>
       <entry>Jamaica</entry>
+     </row>
+     <row>
       <entry>Japan</entry>
       <entry>Kwajalein</entry>
-     </row>
-     <row>
       <entry>Libya</entry>
       <entry>MET</entry>
+     </row>
+     <row>
       <entry>Mexico/BajaNorte</entry>
       <entry>Mexico/BajaSur</entry>
-     </row>
-     <row>
       <entry>Mexico/General</entry>
       <entry>MST</entry>
+     </row>
+     <row>
       <entry>MST7MDT</entry>
       <entry>Navajo</entry>
-     </row>
-     <row>
       <entry>NZ</entry>
       <entry>NZ-CHAT</entry>
+     </row>
+     <row>
       <entry>Pacific/Enderbury</entry>
       <entry>Pacific/Johnston</entry>
-     </row>
-     <row>
       <entry>Pacific/Ponape</entry>
       <entry>Pacific/Samoa</entry>
+     </row>
+     <row>
       <entry>Pacific/Truk</entry>
       <entry>Pacific/Yap</entry>
-     </row>
-     <row>
       <entry>Poland</entry>
       <entry>Portugal</entry>
+     </row>
+     <row>
       <entry>PRC</entry>
       <entry>PST8PDT</entry>
-     </row>
-     <row>
       <entry>ROC</entry>
       <entry>ROK</entry>
+     </row>
+     <row>
       <entry>Singapore</entry>
       <entry>Turkey</entry>
-     </row>
-     <row>
       <entry>UCT</entry>
       <entry>Universal</entry>
+     </row>
+     <row>
       <entry>US/Alaska</entry>
       <entry>US/Aleutian</entry>
-     </row>
-     <row>
       <entry>US/Arizona</entry>
       <entry>US/Central</entry>
+     </row>
+     <row>
       <entry>US/East-Indiana</entry>
       <entry>US/Eastern</entry>
-     </row>
-     <row>
       <entry>US/Hawaii</entry>
       <entry>US/Indiana-Starke</entry>
+     </row>
+     <row>
       <entry>US/Michigan</entry>
       <entry>US/Mountain</entry>
-     </row>
-     <row>
       <entry>US/Pacific</entry>
       <entry>US/Samoa</entry>
-      <entry>UTC</entry>
-      <entry>W-SU</entry>
      </row>
      <row>
+      <entry>UTC</entry>
+      <entry>W-SU</entry>
       <entry>WET</entry>
       <entry>Zulu</entry>
-      <entry></entry>
-      <entry></entry>
      </row>
     </tbody>
    </tgroup>

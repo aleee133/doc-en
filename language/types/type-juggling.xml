@@ -104,7 +104,7 @@
   <title>Integral and string contexts</title>
 
   <simpara>
-   This is the context when using a
+   This is the context when using
    <link linkend="language.operators.bitwise">bitwise operators</link>.
   </simpara>
 
@@ -173,14 +173,14 @@
     <listitem>
      <simpara>
       <type>int</type> type declaration: value is interpreted as <type>int</type>
-      if conversion is well-defined. I.e. the string is
+      if the conversion is well-defined. For example the string is
       <link linkend="language.types.numeric-strings">numeric</link>.
      </simpara>
     </listitem>
     <listitem>
      <simpara>
       <type>float</type> type declaration: value is interpreted as <type>float</type>
-      if conversion is well-defined. I.e. the string is
+      if the conversion is well-defined. For example the string is
       <link linkend="language.types.numeric-strings">numeric</link>.
      </simpara>
     </listitem>
@@ -223,8 +223,8 @@
      </listitem>
     </orderedlist>
 
-    If the type both exists in the union, and the value can be coerced to the
-    type under PHPs existing type checking semantics, then the type is chosen.
+    If the type exists in the union and the value can be coerced to the
+    type under PHP's existing type-checking semantics, then the type is chosen.
     Otherwise, the next type is tried.
    </para>
 
@@ -250,7 +250,7 @@
 
    <example>
     <title>Example of types being coerced into a type part of the union</title>
-    <programlisting role="php">
+    <programlisting>
 <![CDATA[
 <?php
 // int|string
@@ -352,7 +352,7 @@ $bar = (bool) $foo;   // $bar is a boolean
   <note>
    <para>
     Whitespaces are ignored within the parentheses of a cast.
-    Therefore, the following are two casts are equivalent:
+    Therefore, the following two casts are equivalent:
     <informalexample>
      <programlisting role="php">
 <![CDATA[
@@ -406,7 +406,7 @@ if ($fst === $str) {
     </programlisting>
    </informalexample>
   </note>
-   
+
   <para>
    It may not be obvious exactly what will happen when casting between certain
    types. For more information, see these sections:
@@ -422,9 +422,7 @@ if ($fst === $str) {
     <member><link linkend="types.comparisons">The type comparison tables</link></member>
    </simplelist>
   </para>
- </sect2>
 
- <simplesect>
   <note>
    <simpara>
     Because PHP supports indexing into <type>string</type>s via offsets
@@ -449,7 +447,7 @@ echo $a;       // bar
     access by character</link> for more information.
    </simpara>
   </note>
- </simplesect>
+ </sect2>
 
 </sect1>
 <!-- Keep this comment at the end of the file
